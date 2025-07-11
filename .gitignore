@@ -1,0 +1,52 @@
+# 🚫 Allgemeine Ausschlüsse
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.bak
+*.swp
+*.orig
+*.rej
+*~
+
+# 🚫 Build-Artefakte (C++, Arduino, PlatformIO)
+*.o
+*.elf
+*.bin
+*.hex
+*.map
+*.d
+
+# 🚫 Arduino-spezifisch
+*.ino.*
+*.cpp.bak
+*.ino.bak
+
+# 🚫 PlatformIO
+.pio/
+.clangd/
+.vscode/
+
+# 🚫 Python
+__pycache__/
+*.pyc
+tools/__pycache__/
+tools/*.pyc
+
+# 🚫 SD-Karten-Daten & IR-Captures
+*.csv
+*.json
+*.sqlite
+*.db
+
+# 🚫 Logs, temporäre Dumps, Rohdaten
+logs/
+temp/
+captures/
+raw_data/
+db/index.json
+
+# 🚫 Webinterface / Doku (optional)
+_site/
+.github/
+docs/_build/
